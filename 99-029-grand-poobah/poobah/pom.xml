@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.petradatascience</groupId>
+    <artifactId>petra-root</artifactId>
+    <version>0.2.5</version>
+  </parent>
+
+  <name>the-grand-poobah</name>
+  <artifactId>the-grand-poobah</artifactId>
+  <version>0.1-SNAPSHOT</version>
+
+  <scm>
+    <developerConnection>${scm.url}</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <properties>
+    <scm.url>scm:git:https://github.com/PetraDataSci/99_008_cdk_utils.git</scm.url>
+  </properties>
+</project>
