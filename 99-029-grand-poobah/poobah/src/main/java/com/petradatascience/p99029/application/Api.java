@@ -1,4 +1,4 @@
-package com.petradatascience.p99029.api;
+package com.petradatascience.p99029.application;
 
 import com.petradatascience.p99029.model.FlowMap;
 

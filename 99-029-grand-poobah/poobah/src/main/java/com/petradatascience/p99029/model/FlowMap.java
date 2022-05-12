@@ -1,5 +1,8 @@
 package com.petradatascience.p99029.model;
 
-public class FlowMap {
+import com.petradatascience.p99029.model.structural.ExternalReference;
+import com.petradatascience.p99029.model.structural.InternalReference;
+
+public interface FlowMap extends ExternalReference, InternalReference {
     
 }
